@@ -1,0 +1,111 @@
+body {
+    background-color:  #F4EBBE;
+    font-family: 'Playfair Display', serif;
+    color: #75704E;
+}
+body:hover {
+    background-color: #CACC90;
+}
+.myvideo {
+    flex:1;
+    width: 100%;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+}
+.heading {
+    align-self: center;
+    border: 5px ridge #75704E;
+    padding: 6px;
+}
+.intro {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.par {
+    text-align: center;
+    margin: 15px;
+}
+.rest {
+    font-size: 30px;
+}
+.pics {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.restaurant {
+    background-color: #FFFAD7;
+    margin: 20px;
+}
+.space {
+    padding: 30px;
+}
+.btn {
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-style: bolder;
+    background-color: #8BA6A9;
+}
+.btn:hover {
+    background-color:  #A7CECB;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.signature {
+    font-family: 'Satisfy', cursive;
+}
+
+@media all and (max-width: 800px) {
+    body {
+        background-color: #BDC667;
+    }
+    .pics {
+        flex-wrap: wrap;
+    }
+    .photo {
+        width: 80%;
+    }
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 500px) {
+    body {
+        background-color: #BDC667;
+    }
+    .pics {
+        flex-wrap: wrap;
+    }
+    .photo {
+        width: 80%;
+    }
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
